@@ -1,4 +1,4 @@
-# cebd1160_project
+# CEBD1160_project
 
 
 | Name | Date |
@@ -33,8 +33,11 @@ Your repository should include the following:
 ### Introduction
 Breast cancer (BC) is one of the most common cancers among women worldwide, representing the majority of new cancer cases and cancer-related deaths according to global statistics, making it a significant public health problem in today’s society.
 The early diagnosis of BC can improve the prognosis and chance of survival significantly, as it can promote timely clinical treatment to patients. Further accurate classification of benign tumors can prevent patients undergoing unnecessary treatments. Thus, the correct diagnosis of BC and classification of patients into malignant or benign groups is the subject of much research. Because of its unique advantages in critical features detection from complex BC datasets, machine learning (ML) is widely recognized as the methodology of choice in BC pattern classification and forecast modelling.[https://towardsdatascience.com/building-a-simple-machine-learning-model-on-breast-cancer-data-eca4b3b99fa3]
+
 In ordet to address this matter using Machine learnign algorithms, there is always a need to have a data set.In this project, we are working on the Breast Canscer Data set provided in the toy data set section of Sklearn.
+
 Below we will see how the daat has been gathered and contains what features: 
+
 Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. n the 3-dimensional space is that described in: [K. P. Bennett and O. L. Mangasarian: "Robust Linear Programming Discrimination of Two Linearly Inseparable Sets", Optimization Methods and Software 1, 1992, 23-34].
 Attribute Information:
 
