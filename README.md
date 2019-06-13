@@ -1,4 +1,4 @@
-# CEBD1160_project
+# CEBD1160_project : predicting the probabilty of breast cance of patients based on prevoius test results
 
 
 | Name | Date |
