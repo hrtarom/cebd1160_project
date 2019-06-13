@@ -19,15 +19,15 @@ Your repository should include the following:
 
 ## Research Question
 
-1 sentence description of your research question.
+Based on the information provided from a patients' test, how probalbe is it for her to have breast cancer? 
 
 ### Abstract
 
 4 sentence longer explanation about your research question. Include:
 
-- opportunity (what data do we have)
-- challenge (what is the "problem" we could solve with this dataset)
-- action (how will we try to solve this problem/answer this question)
+we have a data set provided bu Sklearn which has gathered data from 569 cases. this data has 30 feature for each case and specifies that for this specific case the tumor is Melignant or Benign.
+we ae trying to bulid a model, based on the data we have, tp predict future cases' probability of breast caner. 
+To do this, first we have to do some pre-processing on the daat at hand, devide it into trainign and test sets and finally feed them into our model(). in the end, we will evaluate our model by feedign the test cases and see how accurate it can predict the results.
 - resolution (what did we end up producing)
 
 ### Introduction
