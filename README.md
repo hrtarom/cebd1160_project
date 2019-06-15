@@ -57,7 +57,7 @@ Class distribution: 357 benign, 212 malignant[Kaggle data sets- breast cancer da
 ### Methods
 ![pair](pair_mean.jpg)
 
-![heat](heat_map.jpg)
+![heat](Heat_map.jpg)
 Brief (no more than 1-2 paragraph) description about how you decided to approach solving it. Include:
 
 - pseudocode for this method (either created by you or cited from somewhere else)
