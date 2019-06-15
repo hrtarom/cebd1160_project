@@ -63,6 +63,7 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 
 ### Results
 The receiver operating characteristic (ROC) curve is another common tool used with binary classifiers. The dotted line represents the ROC curve of a purely random classifier; a good classifier stays as far away from that line as possible (toward the top-left corner).
+
 ![Log_ROC](Log_ROC.png)
 
 ### Discussion
