@@ -23,7 +23,7 @@ Based on the information provided from a patients' test, how probalbe is it for 
 
 ### Abstract
 
-4 sentence longer explanation about your research question. Include:
+
 
 we have a data set provided bu Sklearn which has gathered data from 569 cases. this data has 30 feature for each case and specifies that for this specific case the tumor is Melignant or Benign.
 we ae trying to bulid a model, based on the data we have, tp predict future cases' probability of breast caner. 
@@ -58,10 +58,10 @@ Class distribution: 357 benign, 212 malignant[Kaggle data sets- breast cancer da
 ![pair](pair_mean.jpg)
 
 ![heat](Heat_map.jpg)
-Brief (no more than 1-2 paragraph) description about how you decided to approach solving it. Include:
 
-- pseudocode for this method (either created by you or cited from somewhere else)
-- why you chose this method
+
+In order to solve this problem we are using Logistic Regression. The reason why we chose this method is that first of all we have a classification problem as the outputs are two classes of Malignant and benign tumors. second, the data set is not very complex, so we dont need to use very complicated methods.   
+
 
 ### Results
 The receiver operating characteristic (ROC) curve is another common tool used with binary classifiers. The dotted line represents the ROC curve of a purely random classifier; a good classifier stays as far away from that line as possible (toward the top-left corner).
@@ -73,10 +73,7 @@ The receiver operating characteristic (ROC) curve is another common tool used wi
 
 ![confusion matrix](confusion_matrix.jpg)
 ### Discussion
-Brief (no more than 1-2 paragraph) description about what you did. Include:
-
-- interpretation of whether your method "solved" the problem
-- suggested next step that could make it better.
+Looking at the results, we can claim that our method has relatively solved this problem. For later, improvemnets we can work on the pre-processing of data and see eliminating some of the features will change the results.
 
 ### References
 All of the links
