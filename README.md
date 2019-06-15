@@ -67,9 +67,9 @@ The receiver operating characteristic (ROC) curve is another common tool used wi
 ![Log_ROC](Log_ROC.png)
 
 
-!(classification_report.jpg)
+![classficaion report](classification_report.jpg)
 
-!(confusion_matrix.jpg)
+![confusion matrix](confusion_matrix.jpg)
 ### Discussion
 Brief (no more than 1-2 paragraph) description about what you did. Include:
 
