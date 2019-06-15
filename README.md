@@ -55,7 +55,12 @@ Missing attribute values: none
 
 Class distribution: 357 benign, 212 malignant[Kaggle data sets- breast cancer data set]
 ### Methods
+
+Fist we can have a better understanding of the data with showing the relations bewteen features using pairplot
+
 ![pair](plots/pair_mean.jpg)
+
+Then we investigate the correlation between the features using seaborn heat map:
 
 ![heat](plots/Heat_map.jpg)
 
