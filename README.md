@@ -10,9 +10,9 @@
 ### Resources
 Your repository should include the following:
 
-- Python script for your analysis
-- Results figure/saved file
-- Dockerfile for your experiment
+- Python script for your analysis: Final_Project_data_investigation.py, Final_projects_LogReg.py
+- Results figure/saved file :./plots
+- Dockerfile for your experiment :Dockerfile
 - runtime-instructions in a file named RUNME.md
 
 -----
