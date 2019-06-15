@@ -55,9 +55,9 @@ Missing attribute values: none
 
 Class distribution: 357 benign, 212 malignant[Kaggle data sets- breast cancer data set]
 ### Methods
-![pair](pair_mean.jpg)
+![pair](plots/pair_mean.jpg)
 
-![heat](Heat_map.jpg)
+![heat](plots/Heat_map.jpg)
 
 
 In order to solve this problem we are using Logistic Regression. The reason why we chose this method is that first of all we have a classification problem as the outputs are two classes of Malignant and benign tumors. second, the data set is not very complex, so we dont need to use very complicated methods.   
@@ -66,7 +66,7 @@ In order to solve this problem we are using Logistic Regression. The reason why 
 ### Results
 The receiver operating characteristic (ROC) curve is another common tool used with binary classifiers. The dotted line represents the ROC curve of a purely random classifier; a good classifier stays as far away from that line as possible (toward the top-left corner).
 
-![Log_ROC](Log_ROC.png)
+![Log_ROC](plots/Log_ROC.png)
 
 
 ![classficaion report](classification_report.jpg)
