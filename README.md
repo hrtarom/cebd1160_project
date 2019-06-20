@@ -80,7 +80,7 @@ As we see, our logistic regression model is performing reaseaanbly according to 
 
 However, in order to have a better understanding of our method's performance, we can use the ROC curve. The receiver operating characteristic (ROC) curve is another common tool used with binary classifiers. The dotted line represents the ROC curve of a purely random classifier; a good classifier stays as far away from that line as possible (toward the top-left corner).
 
-![Log_ROC](plots/comparative scatter/Log_ROC.png)
+![Log_ROC](plots/comparative\scatter/Log_ROC.png)
 ### Discussion
 Looking at the results, we can claim that our method has relatively solved this problem. For later, improvemnets we can work on the pre-processing of data and see eliminating some of the features will change the results.
 
