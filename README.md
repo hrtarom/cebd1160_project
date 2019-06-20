@@ -60,11 +60,11 @@ Class distribution: 357 benign, 212 malignant[Kaggle data sets- breast cancer da
 
 Fist we can have a better understanding of the data with showing the relations bewteen features using pairplot
 
-![pair](plots/pair_mean.jpg)
+![pair](plots/pairs/pair_mean.jpg)
 
 Then we investigate the correlation between the features using seaborn heat map:
 
-![heat](plots/Heat_map.jpg)
+![heat](plots/pairs/Heat_map.jpg)
 
 
 In order to solve this problem we are using Logistic Regression. The reason why we chose this method is that first of all we have a classification problem as the outputs are two classes of Malignant and benign tumors. second, the data set is not very complex, so we dont need to use very complicated methods.   
@@ -80,7 +80,7 @@ As we see, our logistic regression model is performing reaseaanbly according to 
 
 However, in order to have a better understanding of our method's performance, we can use the ROC curve. The receiver operating characteristic (ROC) curve is another common tool used with binary classifiers. The dotted line represents the ROC curve of a purely random classifier; a good classifier stays as far away from that line as possible (toward the top-left corner).
 
-![Log_ROC](plots/Log_ROC.png)
+![Log_ROC](plots/comparative scatter/Log_ROC.png)
 ### Discussion
 Looking at the results, we can claim that our method has relatively solved this problem. For later, improvemnets we can work on the pre-processing of data and see eliminating some of the features will change the results.
 
