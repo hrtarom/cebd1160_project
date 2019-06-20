@@ -60,11 +60,11 @@ Class distribution: 357 benign, 212 malignant[Kaggle data sets- breast cancer da
 
 Fist we can have a better understanding of the data with showing the relations bewteen features using pairplot
 
-![pair](plots/pairs/pair_mean.jpg)
+![pair](plots/pairs/pair_mean.png)
 
 Then we investigate the correlation between the features using seaborn heat map:
 
-![heat](plots/pairs/Heat_map.jpg)
+![heat](plots/pairs/Heat_map.png)
 
 
 In order to solve this problem we are using Logistic Regression. The reason why we chose this method is that first of all we have a classification problem as the outputs are two classes of Malignant and benign tumors. second, the data set is not very complex, so we dont need to use very complicated methods.   
