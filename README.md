@@ -69,14 +69,14 @@ In order to solve this problem we are using Logistic Regression. The reason why 
 
 
 ### Results
-
+As we see, our logistic regression model is performing reaseaanbly according to the classification report and confusion matrix below:
 
 
 ![classficaion report](classification_report.jpg)
 
 ![confusion matrix](confusion_matrix.jpg)
 
-The receiver operating characteristic (ROC) curve is another common tool used with binary classifiers. The dotted line represents the ROC curve of a purely random classifier; a good classifier stays as far away from that line as possible (toward the top-left corner).
+However, in order to have a better understanding of our method's performance, we can use the ROC curve. The receiver operating characteristic (ROC) curve is another common tool used with binary classifiers. The dotted line represents the ROC curve of a purely random classifier; a good classifier stays as far away from that line as possible (toward the top-left corner).
 
 ![Log_ROC](plots/Log_ROC.png)
 ### Discussion
@@ -84,6 +84,6 @@ Looking at the results, we can claim that our method has relatively solved this 
 
 ### References
 Sklearn data sets
-
+kaggle dataset solutions
 
 -------
