@@ -10,10 +10,12 @@
 ### Resources
 Your repository should include the following:
 
-- Python script for your analysis: Final_Project_data_investigation.py, Final_projects_LogReg.py
+- Python script for your analysis: Final_projects_LogReg.py
 - Results figure/saved file :./plots
 - Dockerfile for your experiment :Dockerfile
-- runtime-instructions in a file named RUNME.md
+- runtime-instructions : 1- docker build -t project .  2-docker run -v c:/users/hamid.t/Final_Project/:/./plots project
+
+Attention: c:/users/hamid.t/Final_Project/ is the local place on the machine to save the files.
 
 -----
 
